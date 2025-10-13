@@ -12,6 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  timeout: 45000, // 45 seconds per test
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -38,13 +39,7 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: {
-        headless: false,
-        viewport: null,
-        launchOptions: {
-          args: ['--start-maximized'] // start maximized
-        }
-      },
+      use: { ...devices['Desktop Chrome'] },
     },
 
     {
