@@ -4,7 +4,7 @@ This project demonstrates **End-to-End Web Automation** and **API Automation** u
 
 ## 📁 Project Structure
 
-├── api/
+(├── api/
 │ └── CreateAccountAPI.js # Handles API call for new user registration
 │
 ├── fixtures/
@@ -29,7 +29,7 @@ This project demonstrates **End-to-End Web Automation** and **API Automation** u
 │
 ├── package.json # Project dependencies and scripts
 ├── playwright.config.ts # Playwright test configuration
-└── README.md # Project documentation
+└── README.md # Project documentation)
 
 
 ---
