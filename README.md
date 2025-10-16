@@ -59,6 +59,8 @@ Before running the project, make sure you have:
 git clone <your-repo-url>
 cd <project-folder>
 
+```
+
 ### 3️⃣ Install Dependencies
 npm install
 
@@ -82,6 +84,3 @@ npx playwright test --debug
 
 ### After test execution:
 npx playwright show-report
-
-
-
