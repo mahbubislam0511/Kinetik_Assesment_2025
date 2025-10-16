@@ -84,3 +84,10 @@ npx playwright test --debug
 
 ### After test execution:
 npx playwright show-report
+
+# 🧩 Playwright Web & API Automation Assessment
+
+[![Playwright Automation CI](https://github.com/mahbubislam0511/Kinetik_Assesment_2025/actions/workflows/playwright.yml/badge.svg)](https://github.com/mahbubislam0511/Kinetik_Assesment_2025/actions/workflows/playwright.yml)
+
+This project demonstrates End-to-End Web Automation and API Automation using **Playwright** with the **Page Object Model (POM)** design pattern.  
+It automates user registration, product purchase flow, and API testing for a new user.
