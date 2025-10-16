@@ -106,9 +106,10 @@ npx playwright show-report
 - **Running Tests in Parallel:**  
   ```bash
   npx playwright test --workers=<number_of_workers>
-
+  ```
   - **Running Test On Different Browsers :**  
   - By Default it will run for Chorme and Firebox.
   - For Separately run use the following command.
   ```bash
   npx playwright test --project=chromium
+  ```
