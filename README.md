@@ -32,6 +32,7 @@ This project demonstrates End-to-End Web Automation and API Automation using Pla
 ├── playwright.config.ts                  # Playwright test configuration
 └── README.md                             # Project documentation
 
+```
 
 ## 🚀 Features
 
