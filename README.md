@@ -1,38 +1,37 @@
 # 🧩 Playwright Web & API Automation Assessment
 
-This project demonstrates **End-to-End Web Automation** and **API Automation** using **Playwright** with the **Page Object Model (POM)** design pattern. It automates user registration, product purchase flow, and API testing for a new user.
+This project demonstrates End-to-End Web Automation and API Automation using Playwright with the Page Object Model (POM) design pattern. It automates user registration, product purchase flow, and API testing for a new user.
 
 ## 📁 Project Structure
 
-(├── api/
-│ └── CreateAccountAPI.js # Handles API call for new user registration
+```bash
+├── api/
+│   └── CreateAccountAPI.js               # Handles API call for new user registration
 │
 ├── fixtures/
-│ ├── HelperFunction.ts # Contains reusable helper functions
-│ └── user_credentials.json # Stores new user registration details
+│   ├── HelperFunction.ts                 # Contains reusable helper functions
+│   └── user_credentials.json             # Stores new user registration details
 │
-├── node_modules/ # Project dependencies
+├── node_modules/                         # Project dependencies
 │
-├── pages/ # Page Object Model (POM) implementation
-│ ├── HomePage.ts
-│ ├── LoginPage.ts
-│ ├── ProductsPage.ts
-│ ├── CheckoutAndPlaceOrderPage.ts
-│ └── PaymentAndConfirmationPage.ts
+├── pages/                                # Page Object Model (POM) implementation
+│   ├── HomePage.ts
+│   ├── LoginPage.ts
+│   ├── ProductsPage.ts
+│   ├── CheckoutAndPlaceOrderPage.ts
+│   └── PaymentAndConfirmationPage.ts
 │
-├── playwright-report/ # Auto-generated HTML test report
-├── test-results/ # Contains traces, screenshots, and videos for failed tests
+├── playwright-report/                    # Auto-generated HTML test report
+├── test-results/                         # Contains traces, screenshots, and videos for failed tests
 │
 ├── tests/
-│ ├── Task1_E2E_PurchaseFlow.spec.ts # End-to-End purchase flow with new user registration
-│ └── Task2_apiAutomation.spec.ts # API automation for user registration
+│   ├── Task1_E2E_PurchaseFlow.spec.ts    # End-to-End purchase flow with new user registration
+│   └── Task2_apiAutomation.spec.ts       # API automation for user registration
 │
-├── package.json # Project dependencies and scripts
-├── playwright.config.ts # Playwright test configuration
-└── README.md # Project documentation)
+├── package.json                          # Project dependencies and scripts
+├── playwright.config.ts                  # Playwright test configuration
+└── README.md                             # Project documentation
 
-
----
 
 ## 🚀 Features
 
@@ -43,8 +42,6 @@ This project demonstrates **End-to-End Web Automation** and **API Automation** u
 - ✅ **Automatic HTML report generation**
 - ✅ **Artifacts (screenshots, traces, invoice files)** saved for each test
 - ✅ **GitHub Actions CI/CD integration**
-
----
 
 ## 💻 Local Setup & Execution Guide
 
