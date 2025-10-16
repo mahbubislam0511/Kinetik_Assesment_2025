@@ -85,9 +85,30 @@ npx playwright test --debug
 ### After test execution:
 npx playwright show-report
 
-# 🧩 Playwright Web & API Automation Assessment
+# 🧩 Playwright Web & API Automation Workflow Assessment
 
 [![Playwright Automation CI](https://github.com/mahbubislam0511/Kinetik_Assesment_2025/actions/workflows/playwright.yml/badge.svg)](https://github.com/mahbubislam0511/Kinetik_Assesment_2025/actions/workflows/playwright.yml)
 
-This project demonstrates End-to-End Web Automation and API Automation using **Playwright** with the **Page Object Model (POM)** design pattern.  
-It automates user registration, product purchase flow, and API testing for a new user.
+🔗 **Successful CI/CD Run:**  
+[View GitHub Actions Run with Artifacts](https://github.com/mahbubislam0511/Kinetik_Assesment_2025/actions/runs/18471724415)
+
+🔗 **Failed CI/CD Run:**  
+[View GitHub Actions Run with Artifacts](https://github.com/mahbubislam0511/Kinetik_Assesment_2025/actions/runs/18471494864)
+
+- **Test Data:**  
+  - New user data is stored in `fixtures/user_credentials.json`.  
+  - Tests may fail if the same email is reused without cleanup.
+
+- **Known Limitations:**  
+  - Some tests may intermittently fail due to network latency or slow page loads.  
+  - Payment flow uses a sandbox/demo environment only.
+
+- **Running Tests in Parallel:**  
+  ```bash
+  npx playwright test --workers=<number_of_workers>
+
+  - **Running Test On Different Browsers :**  
+  - By Default it will run for Chorme and Firebox.
+  - For Separately run use the following command.
+  ```bash
+  npx playwright test --project=chromium
