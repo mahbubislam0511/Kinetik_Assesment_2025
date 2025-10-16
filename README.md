@@ -64,7 +64,7 @@ cd <project-folder>
 ### 3️⃣ Install Dependencies
 npm install
 
-### 4 Playwright requires its own browsers to run tests. Install them with:
+### 4️⃣ Playwright requires its own browsers to run tests. Install them with:
 npx playwright install --with-deps
 
 ### 5️⃣ Run Tests
